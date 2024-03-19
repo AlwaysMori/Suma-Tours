@@ -1,1 +1,1 @@
-Web prototype sederhana yang berguna sebagai pemesanan paket liburan di sumatera
+A simple web prototype that is useful for booking vacation packages in Sumatra
