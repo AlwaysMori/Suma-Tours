@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/javastrip-2.png" type="image/png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Paket Liburan | SumaTours</title>
+</head><body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="images/suma.png" width="90" height="25"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Beranda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="detail.html">Destinasi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="packages.html">Paket Liburan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Tentang Kami</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+<body>
+
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2>Isi Data Pesanan</h2>
+                <p>Silakan lengkapi formulir di bawah untuk melakukan pemesanan paket liburan.</p>
+            </div>
+        </div>
+
+        <!-- Formulir Pemesanan -->
+        <form id="orderForm"></form>
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="nama">Nama</label>
+                        <input type="text" class="form-control" id="nama" name="nama" required>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="telepon">Nomor Telepon</label>
+                        <input type="tel" class="form-control" id="telepon" name="telepon" required>
+                    </div>
+                </div>
+                
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="tanggal-pemesanan">Tanggal Pemesanan</label>
+                            <input type="date" class="form-control" id="tanggal-pemesanan" name="tanggal-pemesanan" required>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="pesan">Pesan Tambahan</label>
+                        <textarea class="form-control" id="pesan" name="pesan" rows="3"></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md-12 text-center">
+                    <button type="submit" class="btn btn-primary">Kirim Pesanan</button>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <footer class="bg-dark text-light text-center py-3">
+        <div class="container">
+            <p>Copyright &copy; 2023 Pantai</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.2.0/firebase-database.js"></script>
+    
+    <!-- Firebase Configuration and main.js -->
+    <script src="js/main.js"></script>
+</body>
+</html>
+</body>
+</html>
